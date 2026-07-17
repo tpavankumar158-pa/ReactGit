@@ -1,0 +1,31 @@
+import React from "react";
+
+function Login() {
+  return (
+    <div>
+      <h1>Login Page</h1>
+
+      <form>
+        <div>
+          <label>Email:</label>
+          <br />
+          <input type="email" placeholder="Enter Email" />
+        </div>
+
+        <br />
+
+        <div>
+          <label>Password:</label>
+          <br />
+          <input type="password" placeholder="Enter Password" />
+        </div>
+
+        <br />
+
+        <button type="submit">Login</button>
+      </form>
+    </div>
+  );
+}
+
+export default Login;
